@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 70%;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+li:hover {
+    color: red;
+    transition: 1s;
+}
+
+
