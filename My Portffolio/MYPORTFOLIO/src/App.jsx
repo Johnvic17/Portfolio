@@ -1,14 +1,27 @@
+//library
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+
+//CSS
 import './App.css'
 
-import Home from './components/MainPage/Home'
+//sections
+import Home from './sections/MainPage/Home'
+
+//components
 import Navbar from './components/navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Home/>
+      <div>
+        <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+          <Navbar/>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   )
 }

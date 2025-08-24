@@ -1,8 +1,9 @@
 import styles from './Navbar.module.css'
 
 const Navbar = () => {
+    
   return (
-    <div>
+    <div className={styles.container}>
         <nav>
             <ul>
                 <a href="/">
