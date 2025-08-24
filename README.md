@@ -6,11 +6,7 @@
 
 . Javascript(ES6);
 
-<<<<<<< HEAD
-. HTML/CSS;
-=======
 . HTML&CSS;
->>>>>>> 5ccc0bc2b9638c4ce4b952064d90e7f6c8292b0b
 
  são tecnologias introdutórias na área de front-end que quando bem utilizadas podem chegar em resultados exemplares. Miro justamente nesses resultados, igualmente farei uso futuro do tailwindCSS que tentarei incorporar ao projeto visando melhor customização estética do mesmo.
 
