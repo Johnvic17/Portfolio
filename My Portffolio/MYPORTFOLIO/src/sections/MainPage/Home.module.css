@@ -27,8 +27,18 @@ h1, span, button {
 
 p {
     margin-top: 2%;
-    font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 
 .btn {
@@ -44,9 +54,10 @@ p {
 }
 
 .btn:hover{
-    background-color:  red;
+    background-color:  #f35353;
     color: #ffffff;
     border: none;
+    box-shadow: 0 0 20px 5px rgba(247, 69, 37, 0.7);
     transition: 1s;
 }
 

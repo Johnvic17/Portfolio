@@ -18,13 +18,14 @@ li {
     list-style-type: none;
     color: #fff;
     font-size: 70%;
+    font-weight: bold;
     text-transform: uppercase;
     transition: 1s;
 }
 
 li:hover {
-    color: red;
+    background-color: #f35353;
+    padding: 4px 4px 4px 4px;
+    box-shadow: 0 0 20px 5px #f74525b3;
     transition: 1s;
 }
-
-
