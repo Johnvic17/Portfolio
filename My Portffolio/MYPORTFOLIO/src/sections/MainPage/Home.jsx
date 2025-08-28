@@ -52,6 +52,9 @@ const Home = () => {
               {isClicked ? "See you later!" : "Download CV"}
             </button>
           </a>
+          <img src="/src/assets/grid.png" className={styles.gridImg}/>
+          <img src="/src/assets/grid.png" className={styles.gridImg2}/>
+          <img src="/src/assets/grid.png" className={styles.gridImg3}/>
         </div>
         {/* Magic cube div */}
         <div className={styles["cube-container"]} id="language">

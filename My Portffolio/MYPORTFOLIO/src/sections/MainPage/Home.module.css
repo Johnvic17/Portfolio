@@ -69,6 +69,28 @@
     transition: 1s;
 }
 
+.gridImg, .gridImg2, .gridImg3 {
+    display: flex;
+    position: absolute;
+    pointer-events: none;
+    transform: translateY(-50%)
+}
 
+.gridImg {
+    left: 60%;
+    top: 45%;
+    width: 600px;
+    height: 400px;
+}
+
+.gridImg2 {
+    left: -10%;
+    top: 135%;
+}
+
+.gridImg3 {
+    left: -60%;
+    top: -30%;
+}
 
 

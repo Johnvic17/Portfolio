@@ -6,16 +6,28 @@
     gap: 2em;
 }
 
+.title {
+    color: #fff;
+}
+
+.span {
+    color: #cccccc;
+    font-family: monospace;
+}
+
 .text {
+    margin-top: 3em;
     text-align: justify;
     font-size: 100%;
 }
 
+
 .img {
-    max-width: 29%;
+    max-width: 25%;
     max-height: 60%;
     box-shadow: 0 0 20px 5px rgba(247, 69, 37, 0.7);
     transition: 1s;
+    margin-top: 2em;
 }
 
 .img:hover {
@@ -24,11 +36,23 @@
     cursor: pointer;
 }
 
-.cube-container {
-  position: absolute;
-  left: 56%;
-  top: 72%;
-  transform: translateY(-40%);
-  width: 400px;
-  height: 400px;
+.gridImg, .gridImg2, .gridImg3 {
+    display: flex;
+    position: absolute;
+    pointer-events: none;
+}
+
+.gridImg {
+    
+    left: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 600px;
+    height: 400px;
+}
+
+.gridImg3 {
+    transform: translateY(-50%);
+    left: -60%;
+    top: -30%;
 }
