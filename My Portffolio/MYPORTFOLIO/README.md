@@ -1,5 +1,5 @@
 🚀 Kicking off a crucial project for my journey as a developer — my portfolio!
-After spending some time away from coding and focusing mainly on studying, I’m finally putting my knowledge into practice. It feels great to see ideas coming to life, and I know there’s still a long road ahead. Tech is a vast ocean, and we’re all constantly learning and exploring. 🌊
+After spending some time away from coding and focusing mainly on studying, I’m finally putting my knowledge into practice. It feels great to see ideas coming to life, and I know there’s still a long road ahead. Tech is a vast ocean, and we’re all constantly learning and exploring.🌊
 For this first version, I’m working with:
  ✅ React
  ✅ JavaScript (ES6)
