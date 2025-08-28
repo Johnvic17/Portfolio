@@ -9,7 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 10% 0 10%;
+    margin: 8% 10% 0 7%;
+    
 }
 
 .cube-container {
@@ -21,13 +22,20 @@
   height: 400px;
 }
 
-h1, span, button {
+.title, .button {
     text-transform: uppercase;
 }
 
-p {
+.title {
+  font-size: 500%;
+  text-align: justify;
+}
+
+.textAboutMe {
     margin-top: 2%;
     font-weight: bold;
+    font-family: monospace;
+    font-size: 150%;
 }
 
 .cursor {
@@ -49,7 +57,7 @@ p {
     cursor: pointer;
     border: 1px solid #fff;
     padding: 20px 10px;
-    margin-top: 9%;
+    margin-top: 4%;
     transition: 1s;
 }
 

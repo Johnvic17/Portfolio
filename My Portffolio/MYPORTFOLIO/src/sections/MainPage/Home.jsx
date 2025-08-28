@@ -34,12 +34,12 @@ const Home = () => {
     <div className={styles.hero}>
       <div className={styles.info}>
         <div>
-          <h1>
+          <h1 className={styles.title}>
             João Victor <br />
             C. Fernandes
           </h1>
           {/* dinamic text about me */}
-          <p style={{fontFamily: "monospace", fontSize: "20px"}}>
+          <p className={styles.textAboutMe}>
             {text} 
             <span className={styles.cursor}>|</span>
           </p>

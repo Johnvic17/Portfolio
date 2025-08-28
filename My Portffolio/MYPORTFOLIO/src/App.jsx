@@ -1,11 +1,9 @@
 //library
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-//CSS
-import "./App.css";
-
 //sections
 import Home from "./sections/MainPage/Home";
+import About from "./sections/AboutMe/About";
 
 //components
 import Navbar from "./components/navbar/Navbar";
@@ -19,7 +17,8 @@ function App() {
         >
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} /> 
+            <Route path="/" element={<Home/>} /> 
+            <Route path="/about" element={<About/>}/>
           </Routes>
         </BrowserRouter>
       </div>

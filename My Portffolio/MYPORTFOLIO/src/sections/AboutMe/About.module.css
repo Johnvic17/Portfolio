@@ -1,0 +1,34 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 2em;
+}
+
+.text {
+    text-align: justify;
+    font-size: 100%;
+}
+
+.img {
+    max-width: 29%;
+    max-height: 60%;
+    box-shadow: 0 0 20px 5px rgba(247, 69, 37, 0.7);
+    transition: 1s;
+}
+
+.img:hover {
+    box-shadow: 0 0 20px 5px rgba(189, 170, 166, 0.7);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.cube-container {
+  position: absolute;
+  left: 56%;
+  top: 72%;
+  transform: translateY(-40%);
+  width: 400px;
+  height: 400px;
+}
