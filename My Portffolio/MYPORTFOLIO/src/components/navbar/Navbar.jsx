@@ -21,7 +21,7 @@ const Navbar = () => {
           <a href="/">
             <li>Experience</li>
           </a>
-          <a href="/">
+          <a href="/contact">
             <li>Contact</li>
           </a>
         </ul>

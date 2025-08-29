@@ -46,7 +46,7 @@ const Home = () => {
           {/* button for download my CV */}
           <a href="/">
             <button
-              className={styles.btn}
+              className="btn"
               onClick={() => setIsClicked(!isClicked)}
             >
               {isClicked ? "See you later!" : "Download CV"}

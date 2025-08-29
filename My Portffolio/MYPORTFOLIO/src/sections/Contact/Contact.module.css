@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageContact {
+    margin-left: 5%;
+}
+
+.sendMessage { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 6%;
+}
+
+.sendMessage h1 {
+    padding-bottom: 20%;
+}
+
+.sendMessage input {
+    margin-top: 6%;
+    border-radius: 5px;
+    width: 25vw;
+}
+
+.name {
+    height: 2vw;
+    border: none;
+}
+
+.topic {
+    height: 2vw;
+    border: none;
+}
+
+.message {
+    height: 10vw;
+    border: none;
+}
+
+.contact { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.contact a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    background-color: #27272c;
+    height: 3vw;
+    width: 9vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color-black);
+    transition: .5s;
+}
+
+.contact img {
+    height: 3vw;
+    width: 3vw;
+    margin-right: 1vw;
+}
+
+.svg {
+    filter: invert();
+}
+
+.contact div {
+    display: flex;
+}
+
+.title {
+    color: #fff;
+}
+
+.span {
+    color: #cccccc;
+    font-family: monospace;
+}
+
+.instagram:hover {
+    color: #fff;
+    background-color: #d92b71;
+    box-shadow: 0 0 20px 5px #f14087;
+}
+
+.email:hover {
+    color: #fff;
+    background-color: #ce3c30;
+    box-shadow: 0 0 20px 5px rgb(223, 83, 70);
+}
+
+.github:hover {
+    color: #fff;
+    background-color: #616161;
+    box-shadow: 0 0 20px 5px #868686;
+}
+
+.linkedin:hover {
+    color: #fff;
+    background-color: #5ab0f7;
+    box-shadow: 0 0 20px 5px #82c0f3;
+}

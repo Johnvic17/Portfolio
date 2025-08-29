@@ -50,26 +50,6 @@
   }
 }
 
-.btn {
-    background-color:  transparent;
-    border-radius: 0;
-    color: #c7c6c6;
-    font-weight: 900;
-    cursor: pointer;
-    border: 1px solid #fff;
-    padding: 20px 10px;
-    margin-top: 4%;
-    transition: 1s;
-}
-
-.btn:hover{
-    background-color:  #f35353;
-    color: #ffffff;
-    border: none;
-    box-shadow: 0 0 20px 5px rgba(247, 69, 37, 0.7);
-    transition: 1s;
-}
-
 .gridImg, .gridImg2, .gridImg3 {
     display: flex;
     position: absolute;
