@@ -23,6 +23,7 @@
 
 
 .img {
+    z-index: 1;
     max-width: 25%;
     max-height: 60%;
     box-shadow: 0 0 20px 5px rgba(247, 69, 37, 0.7);
@@ -43,7 +44,6 @@
 }
 
 .gridImg {
-    
     left: 40%;
     top: 50%;
     transform: translateY(-50%);
