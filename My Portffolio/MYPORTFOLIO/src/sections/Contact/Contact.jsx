@@ -26,7 +26,7 @@ const Contact = () => {
             name=""
             className={styles.message}
           />
-          <input type="submit" value="Send" className="btn" />
+          <input type="submit" value="Send" className="btn" id="btn"/>
         </div>
       </div>
       <div className={styles.textContainer}>

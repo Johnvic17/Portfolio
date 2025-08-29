@@ -37,7 +37,7 @@
     border-radius: 5px;
     width: 25vw;
     color: #fff;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .contactBackground {
     display: flex;
@@ -82,8 +82,9 @@
     align-items: center;
     margin-bottom: 1em;
     background-color: #27272c;
-    height: 3vw;
-    width: 9vw;
+    height: 80%;
+    width: 45%;
+    margin-top: 1%;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
