@@ -14,7 +14,7 @@ const Contact = () => {
         <div className={styles.messageContact}>
           <h1 className={styles.title}>Contact</h1>
           <span className={styles.span}>
-            Follow me for more projects on my github <br /> and topics about me on
+            Follow me for more projects on my <br />github and topics about me on
             my social networks.
           </span>
         </div>
