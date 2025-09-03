@@ -6,27 +6,15 @@ const Contact = () => {
       <div className={styles.contactContainer}>
         <h1>Send a message =)</h1>
         <div className={styles.contactBackground}>
-          <span className={styles.span}>name</span>
-          <input type="text" name="" className={styles.name}/>
-          <span className={styles.span}>phone</span>
-          <input
-            type="text"
-            name=""
-            className={styles.topic}
-          />
+          <span className={styles.span}>Name</span>
+          <input type="text" name="" className={styles.name} />
+          <span className={styles.span}>Phone</span>
+          <input type="text" name="" className={styles.topic} />
           <span className={styles.span}>Email</span>
-          <input
-            type="text"
-            name=""
-            className={styles.topic}
-          />
+          <input type="text" name="" className={styles.topic} />
           <span className={styles.span}>Message</span>
-          <input
-            type="text"
-            name=""
-            className={styles.message}
-          />
-          <input type="submit" value="Send" className="btn" id="btn"/>
+          <input type="text" name="" className={styles.message} />
+          <button className="btn">Send</button>
         </div>
       </div>
       <div className={styles.textContainer}>

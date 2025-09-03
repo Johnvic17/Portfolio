@@ -36,9 +36,14 @@
     border: 1px solid #fff;
     border-radius: 5px;
     width: 25vw;
-    color: #fff;
+    color: #f74525b3;
     padding-left: 5px;
 }
+
+.contactContainer button {
+    width: 25.5vw;
+}
+
 .contactBackground {
     display: flex;
     flex-direction: column;
