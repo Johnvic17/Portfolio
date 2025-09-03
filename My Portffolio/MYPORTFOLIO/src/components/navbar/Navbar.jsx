@@ -3,34 +3,34 @@ import styles from "./Navbar.module.css";
 
 function Navigation() {
   return (
-    <ul className="nav-ul">
-      <li className="nav-li">
-        <a href="#home" className="nav-link">
+    <ul className="nav-ul flex gap-4 text-neutral-400">
+      <li className="nav-li transition-colors hover:text-white">
+        <a href="/" className="nav-link">
           Home
         </a>
       </li>
-      <li className="nav-li">
-        <a href="#home" className="nav-link">
+      <li className="nav-li transition-colors hover:text-white">
+        <a href="/about" className="nav-link">
           About me
         </a>
       </li>
-      <li className="nav-li">
-        <a href="#home" className="nav-link">
+      <li className="nav-li transition-colors hover:text-white">
+        <a href="techStack" className="nav-link">
           Tech Stack
         </a>
       </li>
-      <li className="nav-li">
-        <a href="#home" className="nav-link">
+      <li className="nav-li transition-colors hover:text-white">
+        <a href="/portfolio" className="nav-link">
           Portfolio
         </a>
       </li>
-      <li className="nav-li">
-        <a href="#home" className="nav-link">
+      <li className="nav-li transition-colors hover:text-white">
+        <a href="/experience" className="nav-link">
           Experience
         </a>
       </li>
-      <li className="nav-li">
-        <a href="#home" className="nav-link">
+      <li className="nav-li transition-colors hover:text-white">
+        <a href="/contact" className="nav-link">
           Contact
         </a>
       </li>
@@ -50,13 +50,14 @@ const Navbar = () => {
           >
             John
           </a>
-          <button className="flex cursor-pointer text-neutral-400 hover:text-white">
+          {/* <button className="flex cursor-pointer text-neutral-400 hover:text-white">
             <img
               src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
               alt="toggle"
               className="w-6 h-6"
             />
-          </button>
+          </button> */}
+          <Navigation/>
         </div>
       </div>
     </div>
