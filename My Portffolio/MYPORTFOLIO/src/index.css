@@ -1,3 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #030412;
+}
+
 * {
   margin: 0;
   padding: 0;
